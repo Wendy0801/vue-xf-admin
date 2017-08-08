@@ -1,0 +1,26 @@
+
+.activity-container {
+     padding: 50px 12px;
+}
+.dialog-footer {
+    float: right;
+}
+#actiUrl,
+#actiParams,
+#url {
+    display: none;
+    }
+.previewContent{
+    margin-top: 12px;
+}
+.el-form-item .tip{
+    color: #999;
+}
+.preview {
+        background: url(/static/images/phone.png) no-repeat;
+        width: 434px;
+        height: 700px;
+        background-size: 80%;
+        position: relative;
+        margin: 0 auto;
+    }

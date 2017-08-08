@@ -1,0 +1,115 @@
+//=====网站公共设置=====
+//==public==
+body {
+  font-size: 0.28rem;
+  background: #F4F4F4;
+}
+
+//==font==
+@FONT-YAHEI: '\5fae\8f6f\96c5\9ed1';
+@FONT-SONGTI: '\5B8B\4F53';
+
+html {
+  font-size: 312.5%;
+  height:100%;
+}
+
+@media screen and (max-width: 359px) {
+  html {
+    font-size: 266.67%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  html {
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width: 384px) and (max-width: 399px) {
+  html {
+    font-size: 320%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 413px) {
+  html {
+    font-size: 333.33%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 431px) {
+  html {
+    font-size: 345%;
+  }
+}
+
+@media screen and (min-width: 432px) and (max-width: 479px) {
+  html {
+    font-size: 360%;
+  }
+}
+
+@media screen and (min-width: 480px)and (max-width: 639px) {
+  html {
+    font-size: 400%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 533.33%;
+  }
+}
+
+//==color==
+//主色调
+@m-color: red; 
+@title-color:blue;
+////文字颜色
+//@text-color: #000000;
+//@fun-color:#FE4080;
+////文字辅助颜色
+//@text-assist-color: #939393;
+//@text-assist-color2: #393939;
+////功能文字颜色
+//@text-fun-color: #FFF;
+//
+////外下边框颜色
+//@bottom-out-color: #E4E4E4;
+////内下边框颜色
+//@bottom-inner-color: #E7E7E7;
+////温馨提示颜色
+//@warm-tip-color:#FF0000;
+//
+////全局提示zindex
+//@globalert-zindex:999;
+////自定义确认取消框zindex
+//@conFirm-zindex:99;
+////自定义按钮弹出层zindex
+//@msgShow-zindex:90;
+////头部banner zindex
+//@header-zindex:30;
+
+//动画,从右侧划入
+.slideToRight{
+    position: relative;
+    right: 0%;
+    animation: slideToRight 0.5s;
+    -webkit-animation: slideToRight 0.5s;
+}
+@-webkit-keyframes slideToRight {
+   from { right:-100%; }
+   to { right: 0%; }
+}
+//动画,从左侧划入
+.slideToLeft{
+    position: relative;
+    left: 0%;
+    animation: slideToLeft 0.5s;
+    -webkit-animation: slideToLeft 0.5s;
+}
+@-webkit-keyframes slideToLeft {
+   from { left:-100%; }
+   to { left: 0%; }
+}
